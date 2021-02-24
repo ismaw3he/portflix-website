@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/speed.png">
+    <link rel="stylesheet" href="./style/all.css">
+    <link rel="stylesheet" href="./style/particle.css">
+    <link rel="stylesheet" href="./style/style.css">
+    
+    <title>Portflix</title>
+</head>
+
+<body>
+    <header>
+        <div class="loader-container">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.28 841.89">
+                <defs>
+                </defs>
+                <path class="cls-1"
+                    d="M148.18,369.64a26.11,26.11,0,0,1,11.34,10.47,35.07,35.07,0,0,1,0,32.34A26,26,0,0,1,148.18,423a38.85,38.85,0,0,1-17.36,3.65H113.5v24.61H99.26V366h31.56A38.71,38.71,0,0,1,148.18,369.64Zm-3.89,39.22q4.83-4.39,4.82-12.55t-4.82-12.54q-4.81-4.39-14.13-4.39H113.5v33.86h16.66Q139.48,413.24,144.29,408.86Z" />
+                <path class="cls-1"
+                    d="M186.48,447.84A29.51,29.51,0,0,1,175.36,436a39,39,0,0,1,0-34.41,29.58,29.58,0,0,1,11.12-11.81,32.3,32.3,0,0,1,32.1,0,29.67,29.67,0,0,1,11.13,11.81,39.09,39.09,0,0,1,0,34.41,29.6,29.6,0,0,1-11.13,11.88,32.36,32.36,0,0,1-32.1,0ZM215,433.46q4.92-5.59,4.93-14.74T215,404A16.65,16.65,0,0,0,190,404q-4.87,5.6-4.88,14.73T190,433.46a16.65,16.65,0,0,0,24.93,0Z" />
+                <path class="cls-1"
+                    d="M280.71,385.47V400a15.32,15.32,0,0,0-3.18-.37q-8,0-12.49,5.18t-4.49,14.92v31.55h-13.7V386.2h13v9.5Q265.81,385.47,280.71,385.47Z" />
+                <path class="cls-1"
+                    d="M329.69,447.71a15.49,15.49,0,0,1-5.86,3.29,24.05,24.05,0,0,1-7.29,1.1q-9.65,0-14.9-5.6t-5.26-16.33v-31.3h-9.64V386.69h9.64V371.83h13.69v14.86h15.67v12.18H310.07v30.94c0,3.17.7,5.58,2.09,7.25a7.39,7.39,0,0,0,6,2.49,11.21,11.21,0,0,0,7.67-2.68Z" />
+                <path class="cls-1"
+                    d="M354.67,382.79v3.9h16.11v12.18H355.11v52.38h-13.7V398.87h-9.64V386.69h9.64v-4.14q0-10.47,5.48-16.51t15.45-6q7.89,0,12.38,3.54L370.89,375a12.2,12.2,0,0,0-7.56-2.68Q354.68,372.32,354.67,382.79ZM380,360.87h13.7v90.38H380Z" />
+                <path class="cls-1"
+                    d="M412.3,372.87a9.69,9.69,0,0,1,0-13,8.36,8.36,0,0,1,6.25-2.62,8.58,8.58,0,0,1,8.77,8.77,9.75,9.75,0,0,1-2.47,6.76,8.08,8.08,0,0,1-6.3,2.74A8.35,8.35,0,0,1,412.3,372.87Zm-.65,13.33h13.69v65.05H411.65Z" />
+                <path class="cls-1"
+                    d="M480.57,451.25l-15-22.54-15.12,22.54H435.31l22.79-33-21.8-32h15.23l14.35,21.32,14.36-21.32H495L473.12,418,496,451.25Z" />
+                <path id="moving-1" class="cls-1"
+                    d="M428,466.64H416.22a4.85,4.85,0,0,0-4.85,4.85v8.34a4.85,4.85,0,0,0,4.85,4.85H428a4.85,4.85,0,0,0,4.85-4.85v-8.34A4.85,4.85,0,0,0,428,466.64Zm1.35,11.91a3.19,3.19,0,0,1-3.18,3.18h-8.07a3.18,3.18,0,0,1-3.18-3.18v-5.78a3.18,3.18,0,0,1,3.18-3.18h8.07a3.18,3.18,0,0,1,3.18,3.18Z" />
+                <path id="moving-2" class="cls-1"
+                    d="M459.56,466.64H447.82a4.85,4.85,0,0,0-4.85,4.85v8.34a4.85,4.85,0,0,0,4.85,4.85h11.74a4.85,4.85,0,0,0,4.85-4.85v-8.34A4.85,4.85,0,0,0,459.56,466.64Zm1.34,11.91a3.18,3.18,0,0,1-3.18,3.18h-8.06a3.18,3.18,0,0,1-3.18-3.18v-5.78a3.18,3.18,0,0,1,3.18-3.18h8.06a3.18,3.18,0,0,1,3.18,3.18Z" />
+                <path id="moving-3" class="cls-1"
+                    d="M491.17,466.64H479.43a4.85,4.85,0,0,0-4.85,4.85v8.34a4.85,4.85,0,0,0,4.85,4.85h11.74a4.85,4.85,0,0,0,4.85-4.85v-8.34A4.85,4.85,0,0,0,491.17,466.64Zm1.34,11.91a3.18,3.18,0,0,1-3.18,3.18h-8.06a3.18,3.18,0,0,1-3.18-3.18v-5.78a3.18,3.18,0,0,1,3.18-3.18h8.06a3.18,3.18,0,0,1,3.18,3.18Z" />
+            </svg>
+        </div>
+        <!-- <div id="particles-js">
+
+        </div> -->
+        <div id="trigger">
+
+        </div>
+    </header>
+    <!-- **********************************Mobile section*********************** -->
+
+    <div class="section-mobile">
+        <div class="phone-border">
+            <img src="./img/smartphoneCover.webp" class="smartphone-img" alt="smartphone">
+            <div class="mobile-interior">
+                <div class="sticky-container">
+                    <div class="sticky-width">
+                        <div class="header-center-animated-container">
+                            <h1 class="header-center-animated">Fiber Optik Internetdən həzz al!</h1>
+                        </div>
+
+                    </div>
+
+                    <div id="rectangle"></div>
+                    <img src="./img/speedtestBCK.png" class="speedtestBCK" alt="speed">
+                    <img src="./img/speedtestBCKUP.png" class="youtubeBCK" alt="youtube">
+                </div>
+            </div>
+            <div class="phone-animated-text-container">
+                <h1 class="phone-animated-header">FTTh texnologiyası ilə </h1>
+                <p class="phone-animated-paragraph">
+                    Fiber optik şəbəkədə ötürülən informasiyanın həcmi digər şəbəkələrə nisbətən qat-qat yüksəkdir.</p>
+                <h1 class="phone-animated-header-second">Bu da yüksək sürətli internet deməkdir.</h1>
+            </div>
+            <div class="phone-animated-text-container-benefits">
+                <h1 class="phone-animated-header-benefit">Limitsiz</h1>
+                <h1 class="phone-animated-header-benefit-1">Kəsintisiz</h1>
+                <h1 class="phone-animated-header-benefit-2">Sürətli</h1>
+            </div>
+        </div>
+        <div id="apple-menu">
+            <div id="apple-menu-list">
+                <div id="chrome" class="apps"></div>
+                <div id="facebook" class="apps"></div>
+                <div id="gmail" class="apps"></div>
+                <div id="speed" class="apps"></div>
+                <div id="instagram" class="apps"></div>
+                <div id="whatsapp" class="apps"></div>
+                <div id="youtube" class="apps"></div>
+            </div>
+        </div>
+        <div id="phone-trigger"></div>
+        <div id="text-trigger"></div>
+    </div>
+
+
+
+
+    <div class="section-prices">
+        <div class="price-category-container">
+            <div class="price-category-list">
+                <h1 class="price-category-item active-item">Internet</h1>
+                <h1 class="price-category-item">TV</h1>
+                <h1 class="price-category-item">Korporativ</h1>
+                <h1 class="price-category-item">Həyət evləri</h1>
+            </div>
+            <div class="category-bottom-line">
+                <div class="active-line"></div>
+            </div>
+        </div>
+
+        <div class="prices-content-container">
+            <p class="prices-content-info">Portflix MMC şirkəti internet xidməti ilə yanaşı eyni zamanda bir çox digər
+                telekommunikasiya xidmətləri də göstərir</p>
+
+            <h2 class="prices-section-header">İnternet paketləri</h2>
+
+            <div class="prices-list">
+                <div class="price-single-container">
+                    <h1 class="service">9 mb/s</h1>
+                    <p class="price">15 AZN</p>
+                </div>
+
+                <div class="price-single-container">
+                    <h1 class="service">36 mb/s</h1>
+                    <p class="price">18 AZN</p>
+                </div>
+
+                <div class="price-single-container">
+                    <h1 class="service">60 mb/s</h1>
+                    <p class="price">28 AZN</p>
+                </div>
+
+                <div class="price-single-container">
+                    <h1 class="service">80 mb/s</h1>
+                    <p class="price">38 AZN</p>
+                </div>
+
+                <div class="price-single-container">
+                    <h1 class="service">100 mb/s</h1>
+                    <p class="price">48 AZN</p>
+                </div>
+            </div>
+
+            <h2 class="prices-section-header">Digər xidmətlər</h2>
+
+            <div class="prices-list">
+                <div class="price-single-container">
+                    <h1 class="service">Statik İP</h1>
+                    <p class="price">5 AZN</p>
+                </div>
+
+                <div class="price-single-container">
+                    <h1 class="service">İP Telefon</h1>
+                    <p class="price">2.5 AZN</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="section-tv">
+        <div class="tv-container">
+            <div class="tv-border">
+                <img src="./img/tv.png" class="tv-img" alt="tv">
+                <div class="winter-img">
+    
+                </div>
+                <!-- <img src="./img/winter.jpg" class="winter-img" alt="tv"> -->
+                <div class="tv-text-container">
+                    <h1 class="tv-text-header">Sevdiyiniz filmləri</h1>
+                    <h1 class="tv-text-header-2">Full HD izləyin</h1>
+                </div>
+            </div>
+        </div>
+        
+        <div id="tv-trigger"></div>
+        <div id="rectangle-2"></div>
+        <div id="canvas-container">
+            <canvas id="hero-lightpass" />
+        </div>
+    </div>
+
+    <div class="section-contact">
+        <div id="contact-trigger"></div>
+        <h1 class="contact-header">Lorem Ipsum Testing Header again</h1>
+        <h1 class="contact-header-fixed">Bizimlə əlaqə</h1>
+        <div class="contact-cards-container">
+            <div class="contact-box contact-info">
+
+                <div class="gradient-text-container">
+                    <i class="far fa-clock icon-clock"></i>
+                    <span class="gr-text-big">24/7 </span>
+                    <span class="gr-text-small">fasiləsiz xidmət</span>
+                </div>
+                <div class="email-text-container">
+                    <i class="far fa-envelope icon-envelope"></i>
+                    <span>contact@portflix.com</span>
+                </div>
+                <div class="phone-text-container">
+                    <i class="fas fa-mobile-alt icon-phone"></i>
+                    <span>+994553341384</span>
+                </div>
+                <div class="phone-text-container">
+                    <i class="fas fa-map-marker-alt icon-map"></i>
+                    <span>S.S. Axundov 7c, Bakı 1115, Azərbaycan</span>
+                </div>
+                
+            </div>
+            <div class="contact-box contact-form">
+                <div class="form__group">
+                    <div class="input-container">
+                        <input type="text" class="form__field" placeholder="Ünvan" name="name" id="name" required>
+                        <label for="name" class="form__label">Ünvan</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" class="form__field" placeholder="Əlaqə nömrəsi" name="phone" id="phone"
+                            required>
+                        <label for="phone" class="form__label">Əlaqə nömrəsi</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" class="form__field" placeholder="Mesaj" name="message" id="message" required>
+                        <label for="message" class="form__label">Mesaj</label>
+                    </div>
+
+                    <div class="button-container" style="text-align: center;">
+                        <a href="#" class="BlueGlow-btn">Göndər</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-width">
+            <p class="footer-text">Ətraflı məlumat üçün +994553341384 mobil nömrəsi ilə əlaqə saxlayın</p>
+            <div class="footer-divider"></div>
+            <p class="copyright">2021 Portflix MMC © Müəllif hüquqları qorunur </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+        integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"
+        integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"
+        integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"
+        integrity="sha512-pvDW4tehKKsohH97164HwKwRGFpzayEFWTVbk8HuUoLIQ7Jp+WLN5XYokVuoCj2aT6dy8ihbW8SRTG1k0W4mSQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"
+        integrity="sha512-tSIDeirKC6suYILHqqPuZH3s0MvD4a5vCHXhBIcdmq4gQXZ2IB3fEYA5x2f3D2p/CbSqzKEvuTEVbS5VZ2u+ew=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"
+        integrity="sha512-ocsFo48WU8Xq6Y1Lwi7psXRAujG9E4TKNR4q1DbrKzaaxOMTEoao/a+mDoB+cYzY4lwbyxvqjkp/ZA1/MNlfsg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"
+        integrity="sha512-plyexAULVlTExvDn2yUZFJV9F8q+53MC/GpU9dEuNGXmrrI3J8Rcffjvxg3OOBALBvF+UILPLIBEoCeF2maqTQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
+    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+    <!-- <script src="../particles.json"></script> -->
+    <!-- <script src="js/particle.js"></script> -->
+    <script src="./js/loading.js"></script>
+    <script src="./js/movement.js"></script>
+    <script src="./js/movements1.js"></script>
+    <!-- <script src="./js/movements3.js"></script> -->
+    <script src="./js/movements2.js"></script>
+    <!-- <script src="./js/movements5.js"></script> -->
+    <script src="./js/movements6.js"></script>
+    <script src="./js/images.js"></script>
+    <script src="./js/prices.js"></script>
+</body>
+
+</html>
