@@ -29,7 +29,13 @@ if(window.innerWidth < 800){
     phoneBorderLastPosition = -230;
     mobileInterior = 1150;
     phonePositionX = 100;
-    if(window.innerWidth <= 380){
+    if(window.innerWidth <= 330){
+        appleMenuY = -215;
+        phonePositionX = -10;
+        mobileInterior = 735;
+        phoneBorderLastPosition = -180;
+    }
+    else if(window.innerWidth <= 380){
         appleMenuY = -215;
         phonePositionX = -10;
         mobileInterior = 865;

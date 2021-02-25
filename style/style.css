@@ -1690,7 +1690,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 490px){
     .header-center-animated-container {
         margin-left: -295px;
         font-size: 15px;
@@ -1725,9 +1725,15 @@ footer {
     .contact-header {
         font-size: 26px;
     }
+    .contact-cards-container {
+        width: 100%;
+    }
+    .contact-box {
+        width: 90%;
+    }
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 430px){
     .mobile-interior {
         left: 122px;
     }
@@ -1834,7 +1840,7 @@ footer {
         font-size: 23px;
     }
     .contact-box {
-        width: 98%;
+        width: 90%;
     }
     .icon-envelope, .icon-clock, .icon-phone, .icon-map {
         font-size: 19px;
@@ -2035,6 +2041,9 @@ footer {
 }
 
 @media only screen and (max-width: 340px){
+    .header-center-animated-container {
+        margin-left: -377px;
+    }
     .phone-animated-paragraph {
         font-size: 45px;
     }
@@ -2045,3 +2054,43 @@ footer {
         font-size: 22px;
     }
 }
+
+@media only screen and (max-width: 331px){
+    .header-center-animated-container {
+        margin-left: -365px;
+        font-size: 11px;
+    }
+    .speedtestBCK, .youtubeBCK {
+        height: 1540px;
+        width: 753px;
+    }
+    .mobile-interior {
+        left: 170px;
+        top: -420px;
+    }
+    .smartphone-img {
+        width: 1015px;
+        height: 1630px;
+        left: -90px;
+    }
+    .phone-animated-text-container {
+        right: -770px;
+    }
+    .phone-animated-header {
+        font-size: 101px;
+        left: -680px;
+    }
+    .phone-animated-header-second {
+        font-size: 64px;
+        margin-left: -720px;
+    }
+    .phone-animated-text-container-benefits {
+        left: -335px;
+        font-size: 59px;
+    }
+    .contact-header {
+        font-size: 21px;
+    }
+}
+
+
