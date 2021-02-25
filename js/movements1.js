@@ -28,6 +28,15 @@ if(window.innerWidth < 800){
     phoneBorderLastPosition = -230;
     mobileInterior = 1150;
     phonePositionX = 100;
+    if(window.innerWidth <= 550){
+        phonePositionX = -10;
+        mobileInterior = 1020;
+        phoneBorderLastPosition = -180;
+    }
+    else if(window.innerWidth < 750){
+        phonePositionX = 50;
+    }
+    console.log(phonePositionX);
     flightPath1 = {
         curviness: 1.25,
         autoRotate: true,

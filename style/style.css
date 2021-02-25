@@ -1268,7 +1268,7 @@ footer {
         margin: 0;
     }
     .mobile-interior {
-        left: 95px;
+        left: 105px;
     }
     .phone-animated-header {
         font-size: 140px;
@@ -1414,6 +1414,187 @@ footer {
         width: 80%;
         height: 360px;
     }
+    .section-prices{
+        height: 550px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .header-center-animated-container {
+        margin-left: -120px;
+        font-size: 23px;
+    }
 }
 
+@media only screen and (max-width: 750px){
+    .header-center-animated-container {
+        margin-left: -150px;
+        font-size: 21px;
+    }
+    .phone-animated-text-container {
+        right: -1580px;
+        width: 950px;
+    }
+    .phone-animated-header {
+        font-size: 116px;
+    }
+    .phone-animated-text-container-benefits {
+        left: -890px;
+        font-size: 120px;
+    }
+    .price-category-list {
+        font-size: 12px;
+    }
+    .prices-content-info {
+        width: 440px;
+        font-size: 16px;
+    }
+    .prices-section-header {
+        font-size: 29px;
+    }
+    .price-category-item {
+        margin-right: 33px;
+    }
+    .service {
+        font-size: 26px;
+    }
+    .price {
+        font-size: 18px;
+    }
+    .price-category-container {
+        height: 74px;
+    }
+    .category-bottom-line {
+        height: 6px;
+    }
+    .contact-header {
+        font-size: 39px;
+    }
+}
+@media only screen and (max-width: 650px){
+
+    .header-center-animated-container {
+        margin-left: -180px;
+        font-size: 21px;
+    }
+    .phone-animated-text-container {
+        right: -1540px;
+        width: 860px;
+    }
+    .phone-animated-header {
+        font-size: 112px;
+    }
+    .phone-animated-paragraph {
+        font-size: 80px;
+    }
+    .phone-animated-header-second {
+        font-size: 113px;
+        margin-left: -1130px;
+    }
+    .section-tv{
+        width: 100%;
+    }
+    .form__group {
+        padding: 0 30px;
+        width: calc(100% - 60px);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .header-center-animated-container {
+        margin-left: -205px;
+        font-size: 21px;
+    }
+    .mobile-interior {
+        left: 110px;
+    }
+    .phone-animated-text-container-benefits {
+        left: -800px;
+        font-size: 105px;
+    }
+    .service {
+        font-size: 22px;
+    }
+    .prices-section-header {
+        font-size: 25px;
+        margin-top: 35px;
+    }
+    .price {
+        font-size: 17px;
+    }
+    .prices-list {
+        margin-top: 20px;
+    }
+    .section-prices {
+        height: 450px;
+    }
+    .tv-border {
+        width: 500px;
+    }
+    .tv-img {
+        width: 500px;
+        height: 310px;
+    }
+    .winter-img {
+        width: 498px;
+        height: 275px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .header-center-animated-container {
+        margin-left: -234px;
+        font-size: 18px;
+    }
+    .mobile-interior {
+        left: 115px;
+    }
+    .smartphone-img {
+        width: 1400px;
+        height: 2120px;
+        left: -245px;
+    }
+    .speedtestBCK, .youtubeBCK {
+        height: 1977px;
+        top: -10px;
+        width: 1025px;
+    }
+    .phone-animated-header {
+        position: absolute;
+        font-size: 150px;
+        left: -1000px;
+        top: -275px;
+    }
+    .phone-animated-text-container {
+        right: -1255px;
+        width: 610px;
+    }
+    .phone-animated-header-second {
+        font-size: 105px;
+    }
+    .phone-animated-text-container-benefits {
+        left: -570px;
+        font-size: 80px;
+    }
+    .tv-text-container {
+        font-size: 25px;
+    }
+    .contact-header {
+        font-size: 32px;
+    }
+    footer{
+        font-size: 11px;
+    }
+    .gradient-text-container {
+        font-size: 34px;
+    }
+    .icon-envelope, .icon-clock, .icon-phone, .icon-map {
+        font-size: 22px;
+    }
+    .gr-text-small {
+        font-size: 24px;
+    }
+    .email-text-container, .phone-text-container {
+        font-size: 18px;
+    }
+}
 

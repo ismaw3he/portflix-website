@@ -5,7 +5,7 @@ const container = document.getElementById("canvas-container");
 
 const frameCount = 38;
 const currentFrame = index => (
-  `../img/img-sequence/${index.toString().padStart(4, '0')}.jpg`
+  `./img/img-sequence/${index.toString().padStart(4, '0')}.jpg`
 )
 
 const preloadImages = () => {
