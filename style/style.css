@@ -1598,3 +1598,373 @@ footer {
     }
 }
 
+@media only screen and (max-width: 500px){
+    .mobile-interior {
+        left: 120px;
+    }
+    .header-center-animated-container {
+        margin-left: -270px;
+        font-size: 16px;
+    }
+    #apple-menu {
+        width: 370px;
+        height: 55px;
+        left: calc(50% - 175px);
+    }
+    .apps {
+        width: 32px;
+        height: 36px;
+    }
+    #facebook {
+        width: 29px;
+        height: 29px;
+    }
+    #gmail {
+        width: 30px;
+        height: 26px;
+    }
+    #speed {
+        width: 30px;
+        height: 30px;
+    }
+    #instagram {
+        width: 29px;
+        height: 29px;
+    }
+    #whatsapp {
+        width: 29px;
+        height: 29px;
+    }
+    #youtube {
+        width: 32px;
+        height: 23px;
+    }
+    .phone-animated-text-container {
+        right: -1205px;
+        width: 530px;
+    }
+    .phone-animated-header-second {
+        font-size: 98px;
+    }
+    .phone-animated-text-container-benefits {
+        left: -513px;
+        font-size: 74px;
+    }
+    .price-category-list {
+        font-size: 10px;
+    }
+    .price-category-item {
+        margin-right: 24px;
+    }
+    .price-category-container {
+        height: 69px;
+    }
+    .prices-content-info {
+        width: 342px;
+        font-size: 15px;
+    }
+    .prices-section-header {
+        font-size: 23px;
+        margin-top: 25px;
+    }
+    .price-single-container {
+        margin-right: 20px;
+    }
+    .service {
+        font-size: 18px;
+    }
+    .price {
+        font-size: 15px;
+    }
+    .winter-img {
+        width: 398px;
+        height: 221px;
+    }
+    .tv-img {
+        width: 400px;
+        height: 250px;
+    }
+    .tv-border{
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .header-center-animated-container {
+        margin-left: -295px;
+        font-size: 15px;
+    }
+    .smartphone-img {
+        width: 1270px;
+        height: 1965px;
+        left: -200px;
+    }
+    .speedtestBCK, .youtubeBCK {
+        height: 1835px;
+        width: 940px;
+    }
+    .phone-animated-text-container {
+        right: -1110px;
+        width: 470px;
+    }
+    .phone-animated-paragraph {
+        font-size: 74px;
+    }
+    .phone-animated-header-second {
+        font-size: 88px;
+        margin-left: -965px;
+    }
+    .phone-animated-text-container-benefits {
+        left: -465px;
+        font-size: 67px;
+    }
+    .service {
+        font-size: 17px;
+    }
+    .contact-header {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .mobile-interior {
+        left: 122px;
+    }
+    .header-center-animated-container {
+        margin-left: -310px;
+        font-size: 14px;
+    }
+    .phone-animated-header {
+        font-size: 133px;
+        left: -905px;
+    }
+    .phone-animated-paragraph {
+        font-size: 71px;
+    }
+    .phone-animated-text-container {
+        right: -1125px;
+    }
+    .phone-animated-header-second {
+        font-size: 80px;
+        margin-left: -915px;
+    }
+    .phone-animated-text-container-benefits {
+        left: -445px;
+        font-size: 67px;
+    }
+    .price-category-container {
+        height: 65px;
+    }
+    .price-category-list {
+        font-size: 9px;
+    }
+    .prices-content-info {
+        width: 312px;
+        font-size: 14px;
+    }
+    .prices-section-header {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .prices-list {
+        margin-top: 16px;
+    }
+    .price-single-container {
+        margin-right: 17px;
+    }
+    .service {
+        font-size: 16px;
+    }
+    .price {
+        font-size: 13px;
+    }
+    .section-prices {
+        height: 385px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .header-center-animated-container {
+        margin-left: -325px;
+        font-size: 13px;
+    }
+    .phone-animated-text-container {
+        right: -820px;
+        width: 135px;
+    }
+    
+    .phone-animated-paragraph {
+        font-size: 60px;
+    }
+    .phone-animated-header {
+        font-size: 109px;
+        left: -885px;
+    }
+    .phone-animated-text-container-benefits {
+        left: -415px;
+        font-size: 63px;
+    }
+    .prices-content-info {
+        width: 287px;
+        font-size: 13px;
+    }
+    .service {
+        font-size: 15px;
+    }
+    .price {
+        font-size: 12px;
+    }
+    .winter-img {
+        width: 348px;
+        height: 188px;
+    }
+    .tv-img {
+        width: 350px;
+        height: 210px;
+    }
+    .tv-border {
+        width: 350px;
+        height: 225px;
+    }
+    .tv-text-container {
+        font-size: 20px;
+    }
+    .contact-header {
+        font-size: 23px;
+    }
+    .contact-box {
+        width: 98%;
+    }
+    .icon-envelope, .icon-clock, .icon-phone, .icon-map {
+        font-size: 19px;
+    }
+    .gr-text-small {
+        font-size: 21px;
+    }
+    .email-text-container, .phone-text-container {
+        font-size: 14px;
+    }
+    .icon-phone{
+        margin-left: 4px;
+        margin-right: 14px;
+    }
+    .gradient-text-container {
+        font-size: 30px;
+    }
+    .BlueGlow-btn {
+        padding: 10px 19px;
+    }
+    footer {
+        font-size: 10px;
+    }
+    .footer-width{
+        width: 90%;
+    }
+    .form__field {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 380px){
+    .mobile-interior {
+        left: 123px;
+        top: -416px;
+    }
+    .header-center-animated-container {
+        margin-left: -355px;
+        font-size: 13px;
+    }
+    #apple-menu {
+        width: 300px;
+        height: 45px;
+        left: calc(50% - 150px);
+    }
+    .apps {
+        width: 26px;
+        height: 29px;
+    }
+    #facebook {
+        width: 23px;
+        height: 22px;
+    }
+    #gmail {
+        width: 24px;
+        height: 22px;
+    }
+    #speed {
+        width: 25px;
+        height: 25px;
+    }
+    #instagram {
+        width: 23px;
+        height: 23px;
+    }
+    #whatsapp {
+        width: 24px;
+        height: 23px;
+    }
+    #youtube {
+        width: 26px;
+        height: 17px;
+    }
+    .mobile-interior {
+        left: 186px;
+        top: -420px;
+    }
+    .smartphone-img {
+        width: 1175px;
+        height: 1800px;
+        left: -110px;
+    }
+
+    .speedtestBCK, .youtubeBCK {
+        height: 1700px;
+        width: 870px;
+    }
+    .phone-animated-text-container {
+        right: -810px;
+        width: 122px;
+    }
+    .phone-animated-paragraph {
+        font-size: 53px;
+    }
+    .phone-animated-header-second {
+        font-size: 74px;
+        margin-left: -884px;
+    }
+    .phone-animated-text-container-benefits {
+        left: -380px;
+        font-size: 63px;
+    }
+    .price-category-list {
+        font-size: 7px;
+    }
+    .price-category-item {
+        margin-right: 14px;
+    }
+    .prices-content-info {
+        width: 247px;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .price-single-container {
+        margin-right: 10px;
+    }
+    .service {
+        font-size: 14px;
+    }
+    .price {
+        font-size: 10px;
+    }
+    .price-category-container {
+        height: 61px;
+    }
+    .section-prices {
+        height: 350px;
+    }
+    .phone-border {
+        transform: translateX(-190px);
+    }
+    
+    
+}

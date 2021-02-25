@@ -4,6 +4,7 @@ let phonePositionX = 300;
 let mobileInterior = 1640;
 let phoneBorderLastPosition = -400;
 let duration = 4000;
+let appleMenuY = -240;
 let phonePositionY = 3650;
 let flightPath1 = {
     curviness: 1.25,
@@ -28,7 +29,18 @@ if(window.innerWidth < 800){
     phoneBorderLastPosition = -230;
     mobileInterior = 1150;
     phonePositionX = 100;
-    if(window.innerWidth <= 550){
+    if(window.innerWidth <= 380){
+        appleMenuY = -215;
+        phonePositionX = -10;
+        mobileInterior = 865;
+        phoneBorderLastPosition = -180;
+    }
+    else if(window.innerWidth <= 450){
+        phonePositionX = -10;
+        mobileInterior = 935;
+        phoneBorderLastPosition = -180;
+    }
+    else if(window.innerWidth <= 550){
         phonePositionX = -10;
         mobileInterior = 1020;
         phoneBorderLastPosition = -180;
@@ -147,7 +159,7 @@ tween1.add(
 tween1.add(
     TweenLite.to('#apple-menu', 200 ,{
         // width: "760px"    ,
-        transform: "translateY(-240px)"
+        transform: `translateY(${appleMenuY}px)`
         // bottom: "-200vh"
             // backgroundImage: 'url("../img/smartphone.png")  '
     })
