@@ -2,20 +2,50 @@
 const tween6 = new TimelineLite();
 let tvSize = 650;
 let tvTop = -50;
-if(window.innerWidth < 800){
-    tvSize = 550;
-    tvTop = -130;
-}
-else if(window.innerWidth < 900){
-    tvSize = 550;
-    tvTop = -100;
-}
-else if(window.innerWidth < 1200){
-    tvSize = 550;
-}
-
+let tvHeight = 500;
+let tvElement = document.querySelector(".tv-img")
+let tvSectionElement = document.querySelector(".section-tv")
 const tv = document.querySelector(".tv-border");
-tv.style.transform = `translateY(${tvTop}px) scale(${window.innerWidth / tvSize})`
+
+
+if(window.innerWidth < 350){
+    tvHeight = 180
+}
+else if (window.innerWidth < 400){
+    tvHeight = 210;
+}
+else if (window.innerWidth < 500){
+    tvHeight = 250;
+}
+else if (window.innerWidth < 600){
+    tvHeight = 310;
+}
+else if (window.innerWidth < 1200){
+    tvHeight = 380;
+}
+else if (window.innerWidth < 1400){
+    tvHeight = 430;
+}
+console.log(tv.getBoundingClientRect().top - 500);
+console.log(tvSectionElement.getBoundingClientRect().top);
+// if(window.innerWidth < 500){
+//     tvHeight = 250;
+// }
+// else if(window.innerWidth < 800){
+//     tvSize = 550;
+//     tvTop = -130;
+// }
+// else if(window.innerWidth < 900){
+//     tvSize = 550;
+//     tvTop = -100;
+// }
+// else if(window.innerWidth < 1200){
+//     tvSize = 550;
+// }
+
+
+// tv.style.transform = `translateY(${tvTop}px) scale(${window.innerWidth / tvSize})`
+tv.style.transform = `scale(${window.innerHeight / tvHeight})`
 // tween6.add(
 //     TweenLite.to('.winter-img', 1 ,{
 //         // bezier: flightPath6,

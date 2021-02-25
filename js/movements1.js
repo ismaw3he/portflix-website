@@ -54,6 +54,9 @@ if(window.innerWidth < 800){
     else if(window.innerWidth < 750){
         phonePositionX = 50;
     }
+
+
+
     console.log(phonePositionX);
     flightPath1 = {
         curviness: 1.25,
@@ -72,6 +75,25 @@ if(window.innerWidth < 800){
         ]
     }
     
+    if(window.innerWidth < 425 && window.innerWidth > 420){
+        flightPath1 = {
+            curviness: 1.25,
+            autoRotate: true,
+            values: [
+                {x: 100, y: 300},
+                {x: 120, y: 400},
+                {x: 150, y: 500},
+                {x: 200, y: 620},
+                {x: 300, y: 600},
+                {x: 320, y: 430},
+                {x: 250, y: 470},
+                {x: 200, y: 600},
+                {x: 170, y: 620},
+                {x: 150, y: 640},
+                {x: 97, y: 920}
+            ]
+        }
+    }
 
 }
 else if(window.innerWidth < 1050){
@@ -255,7 +277,9 @@ tween1.add(
         transform: "scale(1)"
     })
 )
+
 tween1.add(
+
     TweenLite.to('.mobile-interior', 10 ,{
         // bezier: flightPath6,
         // ease: Power1.easeInOut,
