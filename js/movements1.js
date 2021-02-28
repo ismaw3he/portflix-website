@@ -1,5 +1,5 @@
-console.log("test");
-console.log(window.innerWidth);
+// console.log("test");
+// console.log(window.innerWidth);
 let phonePositionX = 300;
 let mobileInterior = 1640;
 let phoneBorderLastPosition = -400;
@@ -57,7 +57,7 @@ if(window.innerWidth < 800){
 
 
 
-    console.log(phonePositionX);
+    // console.log(phonePositionX);
     flightPath1 = {
         curviness: 1.25,
         autoRotate: true,
@@ -85,12 +85,14 @@ if(window.innerWidth < 800){
                 {x: 150, y: 500},
                 {x: 200, y: 620},
                 {x: 300, y: 600},
-                {x: 320, y: 430},
-                {x: 250, y: 470},
-                {x: 200, y: 600},
-                {x: 170, y: 620},
-                {x: 150, y: 640},
-                {x: 97, y: 920}
+                {x: 280, y: 430},
+                {x: 240, y: 450},
+                {x: 220, y: 470},
+                {x: 180, y: 490},
+                {x: 100, y: 600},
+                {x: 100, y: 620},
+                {x: 100, y: 640},
+                {x: 100, y: 920}
             ]
         }
     }
@@ -293,7 +295,9 @@ tween1.add(
         transform: `translateY(1800px) translateX(${phoneBorderLastPosition}px) scale(0.3)`
     })
 )
-
+if(window.innerWidth < 425 && window.innerWidth > 420){
+    
+}
 tween1.add(
     TweenLite.to('.speedtestBCK', 500 ,{
         // bezier: flightPath6,

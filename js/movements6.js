@@ -1,4 +1,3 @@
-
 const tween6 = new TimelineLite();
 let tvSize = 650;
 let tvTop = -50;
@@ -114,4 +113,3 @@ const scene6 = new ScrollMagic.Scene({
 // .addIndicators()
 // .setPin('#tv-trigger')
 .addTo(controller6)
-
