@@ -106,7 +106,7 @@ tween6.add(
 tween6.add(
     TweenLite.to('#hero-lightpass',200 ,{
         opacity: 1,
-        display: "block"
+        // display: "block"
     },0)
 )
 
