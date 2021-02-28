@@ -99,7 +99,7 @@ tween6.add(
 )
 
 tween6.add(
-    TweenLite.to('#canvas-container',20 ,{
+    TweenLite.to('#canvas-container',200 ,{
         opacity: 1
     },0)
 )
