@@ -5,28 +5,31 @@ let tvHeight = 500;
 let tvElement = document.querySelector(".tv-img")
 let tvSectionElement = document.querySelector(".section-tv")
 const tv = document.querySelector(".tv-border");
-
+let winter = document.querySelector(".winter-img")
 
 if(window.innerWidth < 350){
-    tvHeight = 180
+    tvHeight = 160
 }
 else if (window.innerWidth < 400){
-    tvHeight = 210;
+    tvHeight = 188;
 }
 else if (window.innerWidth < 500){
-    tvHeight = 250;
+    tvHeight = 221;
 }
 else if (window.innerWidth < 600){
-    tvHeight = 310;
+    tvHeight = 275;
 }
 else if (window.innerWidth < 1200){
-    tvHeight = 380;
+    tvHeight = 335;
 }
 else if (window.innerWidth < 1400){
-    tvHeight = 430;
+    tvHeight = 380;
 }
-console.log(tv.getBoundingClientRect().top - 500);
+console.log(tv.getBoundingClientRect().top);
 console.log(tvSectionElement.getBoundingClientRect().top);
+console.log(Math.round(tvSectionElement.getBoundingClientRect().top - tv.getBoundingClientRect().top) );
+console.log(winter.getBoundingClientRect());
+// console.log(winter.height);
 // if(window.innerWidth < 500){
 //     tvHeight = 250;
 // }
@@ -42,9 +45,16 @@ console.log(tvSectionElement.getBoundingClientRect().top);
 //     tvSize = 550;
 // }
 
-
+if(window.innerHeight < window.innerWidth){
+    tv.style.transform = `translateY(${Math.round(tvSectionElement.getBoundingClientRect().top - tv.getBoundingClientRect().top) / 2}px) scale(${Math.round(window.innerWidth / tvSize)})`
+    console.log("width");
+}
+else{
+    console.log("height");
+    tv.style.transform = `translateY(${Math.round(tvSectionElement.getBoundingClientRect().top - tv.getBoundingClientRect().top) / 2}px) scale(${window.innerHeight / tvHeight})`
+}
 // tv.style.transform = `translateY(${tvTop}px) scale(${window.innerWidth / tvSize})`
-tv.style.transform = `scale(${window.innerHeight / tvHeight})`
+
 // tween6.add(
 //     TweenLite.to('.winter-img', 1 ,{
 //         // bezier: flightPath6,
