@@ -1550,7 +1550,7 @@ footer {
     }
     .smartphone-img {
         width: 1400px;
-        height: 2120px;
+        height: 2500px;
         left: -245px;
     }
     .speedtestBCK, .youtubeBCK {
@@ -1697,7 +1697,7 @@ footer {
     }
     .smartphone-img {
         width: 1270px;
-        height: 1965px;
+        /* height: 1965px; */
         left: -200px;
     }
     .speedtestBCK, .youtubeBCK {
@@ -1919,7 +1919,7 @@ footer {
     }
     .smartphone-img {
         width: 1175px;
-        height: 1800px;
+        /* height: 1800px; */
         left: -110px;
     }
 
@@ -2070,7 +2070,7 @@ footer {
     }
     .smartphone-img {
         width: 1015px;
-        height: 1630px;
+        /* height: 1630px; */
         left: -90px;
     }
     .phone-animated-text-container {

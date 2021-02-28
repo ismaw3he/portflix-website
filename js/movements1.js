@@ -75,7 +75,7 @@ if(window.innerWidth < 800){
         ]
     }
     
-    if(window.innerWidth < 425 && window.innerWidth > 420){
+    if(window.innerWidth < 430 && window.innerWidth > 420){
         flightPath1 = {
             curviness: 1.25,
             autoRotate: true,
@@ -93,6 +93,69 @@ if(window.innerWidth < 800){
                 {x: 100, y: 620},
                 {x: 100, y: 640},
                 {x: 100, y: 920}
+            ]
+        }
+    }
+    else if(window.innerWidth < 420 && window.innerWidth > 410){
+        flightPath1 = {
+            curviness: 1.25,
+            autoRotate: true,
+            values: [
+                {x: 100, y: 350},
+                {x: 120, y: 450},
+                {x: 150, y: 550},
+                {x: 200, y: 670},
+                {x: 300, y: 650},
+                {x: 280, y: 480},
+                {x: 240, y: 500},
+                {x: 220, y: 520},
+                {x: 180, y: 540},
+                {x: 100, y: 650},
+                {x: 100, y: 670},
+                {x: 100, y: 690},
+                {x: 100, y: 970}
+            ]
+        }
+    }
+    else if(window.innerWidth < 380 && window.innerWidth > 370){
+        flightPath1 = {
+            curviness: 1.25,
+            autoRotate: true,
+            values: [
+                {x: 80, y: 300},
+                {x: 100, y: 400},
+                {x: 130, y: 500},
+                {x: 180, y: 620},
+                {x: 280, y: 600},
+                {x: 260, y: 430},
+                {x: 220, y: 450},
+                {x: 200, y: 470},
+                {x: 160, y: 490},
+                {x: 80, y: 500},
+                {x: 80, y: 620},
+                {x: 80, y: 640},
+                {x: 80, y: 1020}
+            ]
+        }
+    }
+    else if(window.innerWidth < 325 && window.innerWidth > 317){
+        flightPath1 = {
+            curviness: 1.25,
+            autoRotate: true,
+            values: [
+                {x: 70, y: 350},
+                {x: 90, y: 450},
+                {x: 120, y: 550},
+                {x: 170, y: 670},
+                {x: 270, y: 650},
+                {x: 250, y: 480},
+                {x: 210, y: 500},
+                {x: 190, y: 520},
+                {x: 150, y: 540},
+                {x: 70, y: 550},
+                {x: 70, y: 670},
+                {x: 70, y: 690},
+                {x: 70, y: 1070}
             ]
         }
     }
@@ -295,8 +358,25 @@ tween1.add(
         transform: `translateY(1800px) translateX(${phoneBorderLastPosition}px) scale(0.3)`
     })
 )
-if(window.innerWidth < 425 && window.innerWidth > 420){
-    
+
+if(window.innerWidth <= 550){
+    let smartphoneHeight = 2120;
+    if(window.innerWidth<=331){
+        smartphoneHeight = 1630;
+    }
+    else if(window.innerWidth<=380){
+        smartphoneHeight = 1800;
+    }
+    else if(window.innerWidth<=490){
+        smartphoneHeight = 1965;
+    }
+    tween1.add(
+        TweenLite.to('.smartphone-img', 1 ,{
+            // bezier: flightPath6,
+            // ease: Power1.easeInOut,
+            height: `${smartphoneHeight}px`
+        })
+    )
 }
 tween1.add(
     TweenLite.to('.speedtestBCK', 500 ,{
