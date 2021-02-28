@@ -99,23 +99,34 @@ tween6.add(
 )
 
 tween6.add(
-    TweenLite.to('#canvas-container',200 ,{
+    TweenLite.to('#canvas-container',300 ,{
         opacity: 1
     },0)
 )
 tween6.add(
-    TweenLite.to('#hero-lightpass',200 ,{
+    TweenLite.to('#hero-lightpass',300 ,{
         opacity: 1,
         // display: "block"
     },0)
 )
 
+tween6.add(
+    TweenLite.to('#canvas-container',200 ,{
+        opacity: 0
+    },0)
+)
+tween6.add(
+    TweenLite.to('#hero-lightpass',200 ,{
+        opacity: 0,
+        // display: "block"
+    },0)
+)
 
 const controller6 = new ScrollMagic.Controller();
 
 const scene6 = new ScrollMagic.Scene({
     triggerElement: '#tv-trigger',
-    duration: 1300,
+    duration: 1800,
     triggerHook: 0
 
 })

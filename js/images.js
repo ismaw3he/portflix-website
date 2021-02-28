@@ -26,12 +26,12 @@ img.onload=function(){
 
 const updateImage = index => {
   // console.log(index)
-  if(index === 38 || index < 3){
-    container.style.opacity = "0"
-  }
-  else if(index <= 38){
-    container.style.opacity = "1"
-  }
+  // if(index === 38 || index < 3){
+  //   container.style.opacity = "0"
+  // }
+  // else if(index <= 38){
+  //   container.style.opacity = "1"
+  // }
   img.src = currentFrame(index);
   // console.log(img.src);
   context.drawImage(img, 0, 0, 1741, 979, 0 , 0 , 1741, 979);
