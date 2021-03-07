@@ -54,6 +54,13 @@ tween2.add(
     },0)
 )
 tween2.add(
+    TweenLite.to('.section-tv',150 ,{
+        // opacity: 0,
+        zIndex: "-1"
+        // display: "block"
+    },0)
+)
+tween2.add(
     TweenLite.to('.contact-info',200 ,{
         opacity: 1,
         transform: "translateX(0px)"
