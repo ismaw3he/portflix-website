@@ -18,18 +18,19 @@
 const tween2 = new TimelineLite();
 
 
-tween2.add(
-    TweenLite.to('.contact-header',400 ,{
-        opacity: 1,
-        transform: "translateY(-200px)"
-    },0)
-)
-tween2.add(
-    TweenLite.to('.contact-header',400 ,{
-        opacity: 0,
-        transform: "translateY(-600px)"
-    },0)
-)
+// tween2.add(
+//     TweenLite.to('.contact-header',400 ,{
+//         opacity: 1,
+//         transform: "translateY(-200px)"
+//     },0)
+// )
+// tween2.add(
+//     TweenLite.to('.contact-header',400 ,{
+//         opacity: 0,
+//         transform: "translateY(-600px)"
+//     },0)
+// )
+
 tween2.add(
     TweenLite.to('.contact-header-fixed',100 ,{
         opacity: 1
@@ -41,7 +42,17 @@ tween2.add(
 //         transform: "translateY(0px)"
 //     },0)
 // )
-
+tween2.add(
+    TweenLite.to('#canvas-container',150 ,{
+        opacity: 0
+    },0)
+)
+tween2.add(
+    TweenLite.to('#hero-lightpass',150 ,{
+        opacity: 0,
+        // display: "block"
+    },0)
+)
 tween2.add(
     TweenLite.to('.contact-info',200 ,{
         opacity: 1,

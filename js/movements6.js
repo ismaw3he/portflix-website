@@ -6,6 +6,12 @@ let tvElement = document.querySelector(".tv-img")
 let tvSectionElement = document.querySelector(".section-tv")
 const tv = document.querySelector(".tv-border");
 let winter = document.querySelector(".winter-img")
+let tvAfter = 500;
+if(window.innerHeight < 930){
+    tvAfter = 300;
+}
+
+
 
 if(window.innerWidth < 350){
     tvHeight = 160
@@ -63,11 +69,12 @@ else{
 //         // backgroundSize: "1620px 900px"
 //     })
 // )
+
 tween6.add(
     TweenLite.to('.tv-border', 250 ,{
         // bezier: flightPath6,
         // ease: Power1.easeInOut,
-        transform: "translateY(500px) scale(1)"
+        transform: `translateY(${tvAfter}px) scale(1)`
     })
 )
 
@@ -87,14 +94,14 @@ tween6.add(
 tween6.add(
     TweenLite.to('.tv-text-header-2', 100 ,{
         opacity: 1,
-        transform: "translateY(300px)"
+        transform: "translateY(350px)"
     },0)
 )
 
 tween6.add(
     TweenLite.to('.tv-text-header-2',100 ,{
         opacity: 0,
-        transform: "translateY(250px)"
+        transform: "translateY(300px)"
     },0)
 )
 
@@ -109,24 +116,28 @@ tween6.add(
         // display: "block"
     },0)
 )
-
 tween6.add(
-    TweenLite.to('#canvas-container',200 ,{
+    TweenLite.to('#canvas-container',100 ,{
+        // opacity: 0
+        // wait
+    },0)
+)
+tween6.add(
+    TweenLite.to('#canvas-container',400 ,{
         opacity: 0
     },0)
 )
 tween6.add(
-    TweenLite.to('#hero-lightpass',200 ,{
+    TweenLite.to('#hero-lightpass',400 ,{
         opacity: 0,
         // display: "block"
     },0)
 )
-
 const controller6 = new ScrollMagic.Controller();
 
 const scene6 = new ScrollMagic.Scene({
     triggerElement: '#tv-trigger',
-    duration: 1800,
+    duration: 2400,
     triggerHook: 0
 
 })

@@ -723,12 +723,14 @@ header h1 {
 
 .section-tv {
     height: 2250px;
+    /* height: 3325px; */
     background-color: #08080a;
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: -1;
+    /* z-index: -1; */
+    z-index: 1;
     overflow: hidden;
 }
 .tv-container{
@@ -791,7 +793,7 @@ header h1 {
 
 .tv-text-header-2 {
     opacity: 0;
-    transform: translateY(350px);
+    transform: translateY(450px);
 }
 
 #hero-lightpass {
@@ -808,7 +810,7 @@ header h1 {
 #canvas-container {
     height: 125vh;
     width: 100%;
-    transition: opacity 0.5s;
+    /* transition: opacity 0.5s; */
     opacity: 0;
 }
 

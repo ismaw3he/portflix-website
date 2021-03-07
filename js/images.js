@@ -45,7 +45,7 @@ window.addEventListener('scroll', () => {
     // console.log(scrollTop);
   
     const maxScrollTop =   window.innerHeight;
-    // console.log(maxScrollTop);
+    // console.log(maxScrollTop);x  
     // console.log(window);
     // console.log(getCoords(container).top)
     const scrollFraction = scrollTop / maxScrollTop;
@@ -53,7 +53,7 @@ window.addEventListener('scroll', () => {
       frameCount - 1,
       Math.ceil(scrollFraction * frameCount)
     );
-    console.log(scrollFraction)
+    // console.log(scrollFraction)
     requestAnimationFrame(() => updateImage(frameIndex + 1))
   }
 
