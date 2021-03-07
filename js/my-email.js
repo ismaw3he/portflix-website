@@ -4,7 +4,9 @@ const messageInput= document.getElementById("message");
 
 window.onload = function(){
     document.getElementById("submit-btn").addEventListener('click',(event)=>{
-
+        nameInput.value = "";
+        numberInput.value = "";
+        messageInput.value = "";
         let message = {
             name: nameInput.value,
             number: numberInput.value,
@@ -29,8 +31,6 @@ window.onload = function(){
             // }, 4000)
          });
         //  loaderContainer.classList.remove("hidden");
-         nameInput.value = "";
-         numberInput.value = "";
-         messageInput.value = "";
+
     });
 }
