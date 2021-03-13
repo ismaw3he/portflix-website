@@ -1058,7 +1058,7 @@ footer {
         top: 50px;
     }
     .section-tv {
-        height: 2000px;
+        height: 2400px;
     }
     .tv-text-container {
         font-size: 40px;
@@ -1880,7 +1880,7 @@ footer {
     }
     .header-center-animated-container {
         margin-left: -355px;
-        font-size: 13px;
+        font-size: 11px;
     }
     #apple-menu {
         width: 300px;
@@ -1937,12 +1937,12 @@ footer {
         font-size: 53px;
     }
     .phone-animated-header-second {
-        font-size: 74px;
-        margin-left: -884px;
+        font-size: 66px;
+        margin-left: -820px;
     }
     .phone-animated-text-container-benefits {
         left: -380px;
-        font-size: 63px;
+        font-size: 61px;
     }
     .price-category-list {
         font-size: 7px;
