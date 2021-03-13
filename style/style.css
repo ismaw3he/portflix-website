@@ -1039,6 +1039,37 @@ footer {
     margin: 10px 0;
 }
 
+
+.alert{
+    position: fixed;
+    right: -400px;
+    bottom: 20px;
+    width: 350px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all 1s;
+}
+.message-alert-success {
+    -webkit-box-shadow: 0 0 0 1px #1ebc30 inset, 0 0 0 0 transparent;
+    box-shadow: 0 0 0 1px #32b7e1 inset, 0 0 0 0 transparent;
+    background-color: #e5f9e700;
+    color: #32b7e1;
+}
+.message-alert-error{
+    color: #db2828;
+    -webkit-box-shadow: 0 0 0 1px #db2828 inset, 0 0 0 0 transparent;
+    box-shadow: 0 0 0 1px #db2828 inset, 0 0 0 0 transparent;
+}
+
+.alert-active{
+    right: 20px;
+}
+
 @media only screen and (max-width: 1400px) {
     .phone-animated-text-container {
         right: -2300px;
@@ -1547,6 +1578,10 @@ footer {
         margin-left: -234px;
         font-size: 18px;
     }
+    .alert {
+        width: 245px;
+        height: 55px;
+    }
     .mobile-interior {
         left: 115px;
     }
@@ -1878,6 +1913,9 @@ footer {
         left: 123px;
         top: -416px;
     }
+    .section-tv{
+        height: 2500px;
+    }
     .header-center-animated-container {
         margin-left: -355px;
         font-size: 11px;
@@ -1938,7 +1976,7 @@ footer {
     }
     .phone-animated-header-second {
         font-size: 66px;
-        margin-left: -820px;
+        margin-left: -850px;
     }
     .phone-animated-text-container-benefits {
         left: -380px;
@@ -2093,35 +2131,4 @@ footer {
     .contact-header {
         font-size: 21px;
     }
-}
-
-
-.alert{
-    position: fixed;
-    right: -400px;
-    bottom: 20px;
-    width: 350px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 5;
-    border-radius: 10px;
-    font-size: 20px;
-    transition: all 1s;
-}
-.message-alert-success {
-    -webkit-box-shadow: 0 0 0 1px #1ebc30 inset, 0 0 0 0 transparent;
-    box-shadow: 0 0 0 1px #32b7e1 inset, 0 0 0 0 transparent;
-    background-color: #e5f9e700;
-    color: #32b7e1;
-}
-.message-alert-error{
-    color: #db2828;
-    -webkit-box-shadow: 0 0 0 1px #db2828 inset, 0 0 0 0 transparent;
-    box-shadow: 0 0 0 1px #db2828 inset, 0 0 0 0 transparent;
-}
-
-.alert-active{
-    right: 20px;
 }
