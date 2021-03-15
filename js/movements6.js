@@ -111,11 +111,18 @@ tween6.add(
     },0)
 )
 tween6.add(
+    TweenLite.to('#hero-lightpass',1 ,{
+        // opacity: 1,
+        display: "block"
+    },0)
+)
+tween6.add(
     TweenLite.to('#hero-lightpass',300 ,{
         opacity: 1,
         // display: "block"
     },0)
 )
+
 tween6.add(
     TweenLite.to('#canvas-container',100 ,{
         // opacity: 0
@@ -131,6 +138,12 @@ tween6.add(
     TweenLite.to('#hero-lightpass',400 ,{
         opacity: 0,
         // display: "block"
+    },0)
+)
+tween6.add(
+    TweenLite.to('#hero-lightpass',1 ,{
+        // opacity: 0,
+        display: "none"
     },0)
 )
 const controller6 = new ScrollMagic.Controller();
